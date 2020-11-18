@@ -1,0 +1,184 @@
+/* General Styling */
+.side-padding {
+    padding: 0 150px 0;
+}
+
+.side-margin {
+    margin: 0 150px 0;
+}
+
+.zero-padding {
+    padding: 0;
+}
+
+.zero-margin {
+    margin: 0;
+}
+
+.quote {
+    text-align: center;
+}
+
+#me {
+    border-radius: 50%;
+    margin: 25px auto 25px auto;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(160, 255, 173);
+}
+/* Navbar */
+
+.menu-nav {
+    background-color: green;
+}
+
+.section-nav {
+    background-color: rgb(0, 119, 10);
+}
+
+.nav-link {
+    color: white;
+}
+
+.search-bar {
+    width: 20%;
+    margin-left: auto;
+}
+
+/* Carousel */
+
+.carousel-control {
+    background-color: rgba(211, 211, 211, 0.7);
+    width: 10%;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+/* News Cards */
+
+#news {
+    align-items: stretch;
+}
+
+.welcome-div {
+    background-color: green;
+    color: white;
+    align-items: stretch;
+}
+
+.welcome-img {
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 0;
+    margin: 30px 0px 30px;
+    padding: 30px;
+    
+}
+
+.card-text {
+    text-align: justify;
+}
+
+/* Overlay */
+
+.card {
+    border: 0;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.card img {
+    transition: transform .5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.5);
+}
+
+.hover-img {
+    border-radius: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 275px;
+}
+
+.img-gradient{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+}
+
+.me-img {
+    width: 100%;
+    height: 50%;
+}
+
+/* Vission and Mission */
+
+#v-and-m {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* Footer */
+footer {
+    background-color: gray;
+    height: 250px;
+    text-align: center;
+}
+
+.social-links {
+    padding: 75px 48px 10px 48px;
+}
+
+.link {
+    margin: 0 0.5rem 0;
+}
+
+/* Responsive Design */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.99) { 
+    .side-margin {
+        margin: 0;
+    }
+
+    .side-padding {
+        padding: 0;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) AND (max-width: 1199.98px) {
+    .side-margin {
+        margin: 0 30px 0;
+    }
+
+    .side-padding {
+        padding: 0 30px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .side-margin {
+        margin: 0 150px 0;
+    }
+
+    .side-padding {
+        padding: 0 150px 0;
+    }
+}
